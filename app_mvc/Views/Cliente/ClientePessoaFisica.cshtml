@@ -1,0 +1,18 @@
+@model eCommerce.Models.Table.Cliente
+
+<div class="form-group">
+    <input type="hidden" asp-for="IdPessoaNavigation.IdPessoa" />
+    <label class="control-label" asp-for="IdPessoaNavigation.Nome"> </label>
+    <input asp-for="IdPessoaNavigation.Nome" class="form-control" />
+    <span asp-validation-for="IdPessoaNavigation.Nome" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label class="control-label" asp-for="IdPessoaNavigation.Email"> </label>
+    <input asp-for="IdPessoaNavigation.Email" class="form-control" />
+    <span asp-validation-for="IdPessoaNavigation.Email" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <input type="hidden" asp-for="IdPessoaNavigation.CpfCnpj" />
+    <label class="control-label" asp-for="IdPessoaNavigation.CpfCnpj"> </label>
+    <input type="text" id="Cpf" name="Cpf" class="form-control" />
+</div>

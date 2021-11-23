@@ -1,0 +1,15 @@
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\bin\Debug\net5.0\app_model.deps.json
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\bin\Debug\net5.0\app_model.runtimeconfig.json
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\bin\Debug\net5.0\app_model.runtimeconfig.dev.json
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\bin\Debug\net5.0\app_model.dll
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\bin\Debug\net5.0\ref\app_model.dll
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\bin\Debug\net5.0\app_model.pdb
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\obj\Debug\net5.0\app_model.csproj.AssemblyReference.cache
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\obj\Debug\net5.0\app_model.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\obj\Debug\net5.0\app_model.AssemblyInfoInputs.cache
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\obj\Debug\net5.0\app_model.AssemblyInfo.cs
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\obj\Debug\net5.0\app_model.csproj.CoreCompileInputs.cache
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\obj\Debug\net5.0\app_model.dll
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\obj\Debug\net5.0\ref\app_model.dll
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\obj\Debug\net5.0\app_model.pdb
+F:\github\2021_02\eCommerceAula\eCommerce\app_model\obj\Debug\net5.0\app_model.genruntimeconfig.cache
