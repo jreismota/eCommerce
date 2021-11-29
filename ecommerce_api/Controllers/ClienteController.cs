@@ -23,7 +23,6 @@ namespace ecommerce_api.Controllers
         {
             clienteDAL = new ClienteDAL(context);
             mapper = AutoMapperConfiguration.Initialize();
-
         }
 
         [HttpGet("ListarClientes/{pagina}/{qtdRegistros}")]
@@ -42,11 +41,34 @@ namespace ecommerce_api.Controllers
 
             return result;
         }
+        [HttpPost("Inserir")]
+        public async Task<ActionResult<ClienteDTO>> Inserir([FromBody] ClienteDTO clienteDto)
+        {
+            if (clienteDto.IdPessoa != 0)
+            {
+                return BadRequest();
+            }
+            var cliente = mapper.Map<ClienteDTO, Cliente>(clienteDto);
+            var clienteRetorno = await clienteDAL.Inserir(cliente);
+            var clienteResult = mapper.Map<Cliente, ClienteDTO>(clienteRetorno);
+            return Ok(clienteResult);
+        }
+
+        [HttpPut("Atualizar/{id}")]
+        public async Task<IActionResult> Atualizar(int id, ClienteDTO clienteDTO)
+        {
+            return Ok();
+        }
+
+        [HttpDelete("Excluir/{id}")]
+        public async Task<IActionResult> Excluir(int id)
+        {
+            return Ok();
+        }
 
 
     }
 
 
 }
-//Tipos de retorno: https://docs.microsoft.com/pt-br/aspnet/core/web-api/action-return-types?view=aspnetcore-6.0
-//http://www.macoratti.net/19/06/aspc_tiporet1.htm
+

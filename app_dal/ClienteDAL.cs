@@ -29,6 +29,12 @@ namespace ecommerceDAL
 
         public async Task<Cliente> Inserir(Cliente cliente)
         {
+            //chamar: var pessoa = new PessoaDAL(_context).obterPessoa(cliente.IdPessoaNavigation.CpfCnpj);
+            // if (pessoa != null)
+            // {
+            //     cliente.IdPessoa = pessoa.IdPessoa;
+            //     cliente.IdPessoaNavigation = null;
+            // }
             _context.Add(cliente);
             await _context.SaveChangesAsync();
             return cliente;
