@@ -149,3 +149,4 @@ F:\github\2021_02\eCommerceAula\eCommerce\ecommerce_api\obj\Debug\net5.0\ref\eco
 F:\github\2021_02\eCommerceAula\eCommerce\ecommerce_api\obj\Debug\net5.0\ecommerce_api.pdb
 F:\github\2021_02\eCommerceAula\eCommerce\ecommerce_api\obj\Debug\net5.0\ecommerce_api.genruntimeconfig.cache
 F:\github\2021_02\eCommerceAula\eCommerce\ecommerce_api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\github\2021_02\eCommerceAula\eCommerce\ecommerce_api\bin\Debug\net5.0\AutoMapper.dll

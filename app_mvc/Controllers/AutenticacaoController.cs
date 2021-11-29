@@ -34,15 +34,16 @@ namespace eCommerce.Controllers
             return View();
         }
 
-        [HttpPost]
+        [Http________]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Acessar(AcessarViewModel model, string returnUrl = null)
+        public async Task<IActionResult> Action1(AcessarViewModel model, string returnUrl = null)
         {
             ViewData["ReturnUrl"] = returnUrl;
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Senha, model.LembrarDeMim, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Senha, model.LembrarDeMim, 
+                                                                     lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("Usuário Autenticado.");

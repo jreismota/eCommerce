@@ -27,11 +27,11 @@ namespace ecommerceDAL
             return clientes;
         }
 
-        public async Task<bool> Inserir(Cliente cliente)
+        public async Task<Cliente> Inserir(Cliente cliente)
         {
             _context.Add(cliente);
             await _context.SaveChangesAsync();
-            return true;
+            return cliente;
         }
 
         public async Task<Cliente> ObterApenasPessoaVinculada(int id)
@@ -69,7 +69,7 @@ namespace ecommerceDAL
             return cliente;
         }
 
-        public async Task<bool> Atualizar(Cliente cliente)
+        public async Task<Cliente> Atualizar(Cliente cliente)
         {
             try
             {
@@ -80,7 +80,7 @@ namespace ecommerceDAL
             {
                 if (!ClienteExists(cliente.IdPessoa))
                 {
-                    return false;
+                    return null;
                 }
                 else
                 {
@@ -88,7 +88,7 @@ namespace ecommerceDAL
                 }
             }
 
-            return true;
+            return cliente;
         }
 
         public async Task<bool> Excluir(Cliente cliente)

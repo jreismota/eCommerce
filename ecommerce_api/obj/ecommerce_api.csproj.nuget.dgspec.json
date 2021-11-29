@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\ecommerce_api\\ecommerce_api.csproj": {}
+    "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\ecommerce_api\\eCommerce_api.csproj": {}
   },
   "projects": {
     "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\app_dal\\app_dal.csproj": {
@@ -172,12 +172,12 @@
         }
       }
     },
-    "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\ecommerce_api\\ecommerce_api.csproj": {
+    "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\ecommerce_api\\eCommerce_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\ecommerce_api\\ecommerce_api.csproj",
-        "projectName": "ecommerce_api",
-        "projectPath": "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\ecommerce_api\\ecommerce_api.csproj",
+        "projectUniqueName": "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\ecommerce_api\\eCommerce_api.csproj",
+        "projectName": "eCommerce_api",
+        "projectPath": "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\ecommerce_api\\eCommerce_api.csproj",
         "packagesPath": "C:\\Users\\josereis\\.nuget\\packages\\",
         "outputPath": "F:\\github\\2021_02\\eCommerceAula\\eCommerce\\ecommerce_api\\obj\\",
         "projectStyle": "PackageReference",
@@ -215,6 +215,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
